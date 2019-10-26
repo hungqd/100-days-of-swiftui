@@ -34,15 +34,9 @@ struct ContentView: View {
                         .fontWeight(.bold)
                 }
                 ForEach(0..<3) { number in
-                    Button(action: {
+                    FlagImage(country: self.countries[number]) {
                         self.flagTapped(number)
-                    }) {
-                        Image(self.countries[number])
-                            .renderingMode(.original)
                     }
-                    .clipShape(Capsule())
-                    .overlay(Capsule().stroke(Color.black, lineWidth: 1))
-                    .shadow(color: .black, radius: 2)
                 }
                 Text("Your score: \(score)")
                     .foregroundColor(.white)
