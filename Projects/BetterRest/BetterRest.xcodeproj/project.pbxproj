@@ -13,6 +13,7 @@
 		B56A6D272367F34A007751FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B56A6D262367F34A007751FF /* Assets.xcassets */; };
 		B56A6D2A2367F34A007751FF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B56A6D292367F34A007751FF /* Preview Assets.xcassets */; };
 		B56A6D2D2367F34A007751FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B56A6D2B2367F34A007751FF /* LaunchScreen.storyboard */; };
+		B5B5EB4A23683E9A000CED2F /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = B5B5EB4923683E9A000CED2F /* SleepCalculator.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		B56A6D292367F34A007751FF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B56A6D2C2367F34A007751FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B56A6D2E2367F34A007751FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5B5EB4923683E9A000CED2F /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				B56A6D262367F34A007751FF /* Assets.xcassets */,
 				B56A6D2B2367F34A007751FF /* LaunchScreen.storyboard */,
 				B56A6D2E2367F34A007751FF /* Info.plist */,
+				B5B5EB4923683E9A000CED2F /* SleepCalculator.mlmodel */,
 				B56A6D282367F34A007751FF /* Preview Content */,
 			);
 			path = BetterRest;
@@ -148,6 +151,7 @@
 			files = (
 				B56A6D212367F349007751FF /* AppDelegate.swift in Sources */,
 				B56A6D232367F349007751FF /* SceneDelegate.swift in Sources */,
+				B5B5EB4A23683E9A000CED2F /* SleepCalculator.mlmodel in Sources */,
 				B56A6D252367F349007751FF /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
