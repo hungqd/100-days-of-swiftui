@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B5522F0023754F5D00157AD6 /* AnyTransitionExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5522EFF23754F5D00157AD6 /* AnyTransitionExtension.swift */; };
 		B5731562236AB3D60071FD6C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5731561236AB3D60071FD6C /* AppDelegate.swift */; };
 		B5731564236AB3D60071FD6C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5731563236AB3D60071FD6C /* SceneDelegate.swift */; };
 		B5731566236AB3D60071FD6C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5731565236AB3D60071FD6C /* ContentView.swift */; };
 		B5731568236AB3D90071FD6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5731567236AB3D90071FD6C /* Assets.xcassets */; };
 		B573156B236AB3D90071FD6C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B573156A236AB3D90071FD6C /* Preview Assets.xcassets */; };
 		B573156E236AB3D90071FD6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B573156C236AB3D90071FD6C /* LaunchScreen.storyboard */; };
+		B5A206842372BA440010A4FC /* CornerRotateModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A206832372BA440010A4FC /* CornerRotateModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B5522EFF23754F5D00157AD6 /* AnyTransitionExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyTransitionExtension.swift; sourceTree = "<group>"; };
 		B573155E236AB3D60071FD6C /* Animations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5731561236AB3D60071FD6C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5731563236AB3D60071FD6C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		B573156A236AB3D90071FD6C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B573156D236AB3D90071FD6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B573156F236AB3D90071FD6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5A206832372BA440010A4FC /* CornerRotateModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornerRotateModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				B5731561236AB3D60071FD6C /* AppDelegate.swift */,
 				B5731563236AB3D60071FD6C /* SceneDelegate.swift */,
 				B5731565236AB3D60071FD6C /* ContentView.swift */,
+				B5A206832372BA440010A4FC /* CornerRotateModifier.swift */,
+				B5522EFF23754F5D00157AD6 /* AnyTransitionExtension.swift */,
 				B5731567236AB3D90071FD6C /* Assets.xcassets */,
 				B573156C236AB3D90071FD6C /* LaunchScreen.storyboard */,
 				B573156F236AB3D90071FD6C /* Info.plist */,
@@ -146,6 +152,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5A206842372BA440010A4FC /* CornerRotateModifier.swift in Sources */,
+				B5522F0023754F5D00157AD6 /* AnyTransitionExtension.swift in Sources */,
 				B5731562236AB3D60071FD6C /* AppDelegate.swift in Sources */,
 				B5731564236AB3D60071FD6C /* SceneDelegate.swift in Sources */,
 				B5731566236AB3D60071FD6C /* ContentView.swift in Sources */,
